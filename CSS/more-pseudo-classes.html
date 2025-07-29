@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head> 
+    <style>
+      ul.first-child-list li:first-child
+      {
+        color:red;
+        font-weight: bold;
+      }
+
+      ul.last-child-list li:last-child
+      {
+        color:blue;
+        font-weight: bold;
+      }
+      
+      ul.nth-child-list li:nth-child(2)
+      {
+        color:yellow;
+        font-weight: bold;
+      }
+
+      ul.only-child-list li:only-child
+      {
+        color:green;
+        font-style:italic;
+        background-color:lightgray
+      }
+      
+    </style>
+  
+  </head>
+
+  <body>
+    <h1></h1>
+    <p></p> 
+    <ul class="first-child-list">
+      <li> This is the first item (red and bold).</li>
+      <li>This is the second item</li>
+      <li>This is the third</li>
+      <li>This is the fourth item</li>
+
+    </ul>
+
+     <ul class="last-child-list">
+      <li> This is the first item (red and bold).</li>
+      <li>This is the second item</li>
+      <li>This is the last child</li>
+
+    </ul>
+
+    <ul class=" nth-child-list">
+      <li> This is the first item (red and bold).</li>
+      <li>This is the second item</li>
+      <li>This is the last child</li>
+
+    </ul>
+
+    <ul class=" only-child-list">
+      <li> This is the only child</li>
+
+    </ul>
+    
+    
+    
+    
+
+
+  </body>
+</html>

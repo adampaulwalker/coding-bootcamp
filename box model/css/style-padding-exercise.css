@@ -1,0 +1,26 @@
+#padding-box
+{
+  padding: 10px 20px 10px 20px;
+}
+
+#shorthand-padding
+{
+  padding: 10px 20px 10px 20px;
+}
+
+#border-box
+{
+  border-left: 10px red;
+  border-right: 5px solid black;
+  border-top: 5px solid black;
+  border-bottom: 5px solid black;
+}
+
+#margin-box
+{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin: 20px 30px 20px 30px;
+}

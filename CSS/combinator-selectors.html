@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head> 
+    <style>
+      .main p {color:blue}
+
+      div > p {font-weight: bold}
+    
+      h2 ~ p {color: green}
+      h2 + p {color: red}
+      
+
+      a.highlighted {color:yellow}
+      .highlighted {color:brown}
+
+    </style>
+  </head>
+  <body>
+    <h1>Heading 1</h1>
+  
+    <div class="main">
+      <p>
+        Descendant of the div
+      </p>
+      <div>
+        <span>
+          <p>
+          Another para
+        </p>
+        </span>  
+      </div>
+    </div>
+  
+    <p>
+      Not a descendant
+    </p>
+
+    <h2>H2 Heading</h2>
+    <p>Sibling of h2</p>
+    
+    <p>Not adjacent sibling of h2</p>
+    <a class ="highlighted" href = "https://google.com"> link to Google</a>
+    <p class="highlighted">here's some highlighted text</p>
+  
+  </body>
+</html>

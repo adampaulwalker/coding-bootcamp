@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head> 
+    <style>
+      input[type]
+      {
+        border: 2px solid blue;
+      }
+      input[type="text"]
+      {
+        background-color:yellow;
+      }
+
+      p[class~="highlight"]
+      {
+        color:red;
+      }
+
+      [lang|="en"]
+      {
+        border:2px solid green;
+      }
+
+      a[href^="https"]
+      {
+        color:purple;
+      }
+
+      a[href$=".pdf"]
+      {
+        color:orange;
+        text-decoration: underline;
+      }
+
+      a[href*="example"]
+      {
+        font-weight: bold;
+      }
+
+
+    </style>
+  </head>
+  <body>
+    <h1></h1>
+    <input type ="text" placeholder="This input has a 'type' attribute"/>
+    <input type = "password" placeholder = "Another input with 'type' attribute"/>
+    
+    <p class = "highlight">
+      This paragraph has the class "highlight"
+
+    </p>
+    
+    <p class = "highlight special">
+      This paragraph has the class "highlight" and "special"
+
+    </p>
+    
+
+    <p class = "special">
+      This paragraph has the class "special"
+
+    </p>
+
+    <p lang="en">this paragraph is in English</p>
+  
+    <h2>[attribute^=value]</h2>
+    <a href="https://www.example.com">Secure link with s</a><br>
+    <a href="http://www.example.com">Insecure link with s</a><br>
+
+
+    <a href="document.pdf"> PDF Document (ends with pdf)</a><br>
+    <a href="document.docx"> Word Document (does not end with pdf)</a>
+    
+  
+  </body>
+</html>

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head> 
+    <style>
+      .before-example::before 
+      {
+        content: "Before:";
+        color:green;
+      }
+      .after-example::after 
+      {
+        content: "After:";
+        color:red;
+      }
+
+      .first-letter-example::first-letter 
+      {
+        font-size:2rem;
+        color:blue;
+      }
+      
+      .first-line-example::first-line 
+      {
+        font-weight:bold;
+        text-transform: uppercase;
+      }
+
+      .marker-example
+      {
+        list-style-type:circle;
+      }
+
+    </style>
+  </head>
+  <body>
+    <h1></h1>
+    <p class = "before-example">
+      Text is inserted before this element
+
+    </p>
+    <p class = "after-example">
+      Text is inserted before this element
+    </p>
+
+    <p class = "first-letter-example">
+      This paragraph has a larger first Letter
+    </p>
+
+    <p class = "first-line-example">
+      This is an example of styling the first line of text in a paragraph. The rest of the text remains unchanged.<br>
+      <!-- adding a second line -->
+      This is the second line.
+    </p>
+
+    <ul class="marker-example">
+      <li>List Item 1</li>
+      <li>List Item 2</li>
+      <li>List Item 3</li>
+    </ul>
+
+
+  </body>
+</html>

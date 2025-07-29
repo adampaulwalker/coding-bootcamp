@@ -1,0 +1,62 @@
+body
+{
+  background-color: lightyellow; 
+}
+
+.box-model
+{
+  text-align:center;
+  width: 300px;
+  background-color: lightblue;
+  padding: 20px;
+  border: 5px solid black;
+  margin: 30px;
+}
+
+.different-properties
+{
+  text-align:center;
+  width: 300px;
+  background-color: lightblue;
+  padding: 20px;
+  border: 5px solid black;
+  margin: 30px;
+}
+
+.short-hand
+{
+  text-align:center;
+  width: 300px;
+  background-color: lightblue;
+  padding: 20px 40px 40px 40px
+
+  /* trbl (top right bottom left) */
+}
+
+    .block-div
+    {
+      display: block;
+      background-color: blue;
+      color: white;
+      padding: 10px;
+
+    }
+
+    .inline-div
+    {
+      display: inline;
+      background-color: green;
+      color: white;
+      padding: 10px;
+
+    }
+
+    .inline-block-div
+    {
+      display: inline-block;
+      background-color: red;
+      width:50%;
+      color: white;
+      padding: 10px;
+
+    }
