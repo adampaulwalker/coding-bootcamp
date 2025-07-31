@@ -1,0 +1,14 @@
+.header-wrapper 
+{
+  width: 100%;
+}
+
+.navbar
+{
+  display: none;
+}
+
+.hero-image
+{
+  min-height: 250px;
+}

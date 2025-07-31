@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Variables Exercise</title>
+    
+    <style>
+        /* CSS variables and styles will be added here */
+      :root
+          {
+              --primary-color: #0000FF;
+              --font-size: 16px;
+              --padding: 10px 20px;
+          }
+          h1
+          {
+            color:var(--primary-color);
+          }
+          p{
+            font-size: var(--font-size);
+          }
+          label{
+            font-size: var(--font-size);
+          }
+          button{
+            padding: var(--padding);
+          }
+    
+    </style>
+</head>
+<body>
+    <h1> Welcome to Our Site</h1>
+    <p>This is an example paragraph to demonstrate font size using CSS variables.</p>
+    <label>Subscribe to our newsletter</label>
+    <button>Click Me</button>
+</body>
+</html>

@@ -1,0 +1,19 @@
+body
+{
+  font-family: arial, sans-serif;
+  text-align: center;
+  color: blue;  
+}
+
+.parent-text
+{
+  font-size: 18px;
+}
+
+.not-inherited
+{
+  width: 200px;
+  padding: 5px;
+  border: 2px solid blue;
+  background-color: lightyellow;
+}

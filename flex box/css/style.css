@@ -1,0 +1,33 @@
+.flex-container
+{
+  display: flex;
+  padding: 10px;
+  background-color: lightgrey;
+  margin-bottom: 20px;
+  border:2px solid black;
+  gap:10px;
+}
+
+.flex-item
+{
+  background-color: lightblue;
+  padding:20px;
+  text-align: center;
+  border: 1px solid #333;
+  min-width: 150px;
+  height:100px;
+}
+
+.wrap-row
+{
+  flex-direction:row;
+  flex-wrap:wrap;
+  max-width: 600px;
+}
+
+.flex-container
+  {
+    flex-flow: row wrap;
+    max-width: 600px;
+
+  }
