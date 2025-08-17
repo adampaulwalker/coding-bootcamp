@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <!-- <link rel="stylesheet" href="css/style.css"> -->
+    <style>
+    </style>
+
+    <script>
+      // logical and operator
+      let num1 = 10;
+      let str1 = "10";
+
+      // all conditions must be true for it to be true
+      console.log(num1 < 12 && str1 > 8);
+
+
+      // one condition is false
+      console.log(num1 < 12 && str1 > 8 && str1 === 10);
+
+      // OR operator || (one of the conditions is true)
+      console.log(num1<12 || str1 < 8);
+
+      //nullish coalescing
+      let name = null; // not null or not undefined
+      console.log(name ?? "Default Value");
+      
+      let age = 25;
+      console.log(age ?? 10);
+
+      //nullish assignment (??=)
+      let x = null;
+      x ??=10;
+
+      let y = "John"; //not null
+      y ??=10; //will skip the step
+
+
+
+    </script>
+
+
+  </head>
+  <body>
+    <h1></h1>
+    <p></p>
+
+    <section>
+
+
+    </section>
+
+
+  </body>
+</html>
